@@ -56,13 +56,13 @@ Endpoints
          "id": 1,
          "title": "Comprar leite",
          "descricao": "Nova descrição"
-         "completed": "CONCLUIDO"
+         "status": "CONCLUIDO"
       },
       {
          "id": 2,
          "title": "Estudar programação",
          "descricao": "Nova descrição"
-         "completed": "EM_ANDAMENTO"
+         "status": "EM_ANDAMENTO"
       }
    ]
    ```
@@ -75,9 +75,9 @@ Endpoints
 
    ```bash
       {
-      "title": "Nova tarefa",
-      "descricao": "Nova descrição"
-      "completed": "EM_ANDAMENTO"
+         "title": "Nova tarefa",
+         "descricao": "Nova descrição"
+         "status": "EM_ANDAMENTO"
       }
    ```
 
@@ -88,9 +88,27 @@ Endpoints
    Exemplo de Resposta:
    ```bash
       {
-      "title": "Nova tarefa",
-      "descricao": "Nova descrição"
-      "completed": "EM_ANDAMENTO"
+         "title": "Nova tarefa",
+         "descricao": "Nova descrição"
+         "completed": "EM_ANDAMENTO"
       }
    ```
 
+4. Update de uma Tarefa Específica
+   Método: PUT
+   URL: todo/{id}
+   Descrição: atualiza o status da tarefa atual
+   Exemplo de Resposta:
+   ```bash
+      {
+         "status": "EM_ANDAMENTO"
+      }
+   ```
+5. Deletar uma Tarefa Específica
+   Método: DELETE
+   URL: todo/{id}
+   Descrição: Deleta uma tarefa especifica
+   Exemplo de Resposta:
+   ```bash
+      NO CONTENT
+   ```
