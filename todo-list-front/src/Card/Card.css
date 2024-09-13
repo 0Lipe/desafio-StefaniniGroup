@@ -1,0 +1,85 @@
+.Card{
+  width:100% ;
+  margin: 10px;
+  
+}
+
+.Cards{
+  display: grid;
+  grid-template-columns: 2fr 5fr 250px;
+  box-shadow: 1px 1px 2px black;
+  border-radius: 10px;
+  width: 85%;
+}
+
+.containerCard{
+  width: 100%;
+}
+
+.search{
+  display: flex;
+  width: 70%;
+  justify-content: center;
+  margin: 10px;
+}
+
+.input-search{
+  width: 100%;
+}
+
+ul{
+  padding: 0;
+}
+
+h3{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: #636e72;
+}
+
+.descricao{
+  grid-column: 2;
+  padding: 10px;
+  margin: 0; 
+}
+
+.titulo{
+  padding: 10px;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.status-amarelo{
+  background-color: #ffeaa7;
+  padding: 10px;
+  margin: 0;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 190px;
+  
+}
+
+.status-vermelho{
+  background-color: #ff7675;
+  padding: 10px;
+  margin: 0;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 190px;
+}
+
+.status-verde{
+  background-color: #55efc4;
+  padding: 10px;
+  margin: 0;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 190px;
+  
+}

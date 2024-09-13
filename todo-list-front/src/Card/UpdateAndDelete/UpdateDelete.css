@@ -1,0 +1,24 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.containerStatus{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.btn-cancel{
+  width: 25px;
+  height: 25px;
+  margin: 5px;
+  margin-right: 15px;
+  border: none;
+  background-color: red;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

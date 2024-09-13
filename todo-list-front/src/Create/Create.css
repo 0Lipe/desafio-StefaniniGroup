@@ -1,0 +1,42 @@
+.containerCreate {
+  padding: 10px;
+  height: auto;
+  background-color: #74b9ff;
+}
+
+.forms{
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+}
+
+h1{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: #2d3436;
+}
+
+input, select, button{
+  padding: 8px;
+  margin: 3px;
+  margin-top: 10px;
+  border-radius: 3px;
+  border: 2px solid #0984e3;
+  width: 225px;
+
+}
+
+input,select,::placeholder {
+  color: #888; 
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+button{
+  color: #ffffff; 
+  background-color: #2d3436;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.input{
+  display: flex;
+}
+
